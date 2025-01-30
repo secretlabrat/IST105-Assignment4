@@ -23,5 +23,5 @@ else:
         result += b
         body += "Result: {}\n<br/>\n".format(result)
 body += '<a href="/">Back to home<a/>\n</body>\n</html>'
-
+# I use / as home path because I config apache to serve form.php as index
 print(body)
